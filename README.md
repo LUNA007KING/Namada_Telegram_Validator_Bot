@@ -130,7 +130,7 @@ python3 main.py
 - `/monitor` [address]: Starts monitoring a validator.
 - `/view`: Views the status of all monitored validators.
 - `/stop` [address|all]: Stops monitoring a validator or all validators.
-
+Try it on https://t.me/Namada_Validators_bot
 ## Bot Usage Examples
 - **start**
   
