@@ -75,7 +75,7 @@ This structure supports modular development by separating concerns: db handles d
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/LUNA007KING/namada_telegram_validator_bot.git
+git clone https://github.com/LUNA007KING/Namada_Telegram_Validator_Bot.git
 cd telegram_bot_project
 ```
 2. Run the install.sh script to install Python, Python packages, and set up MySQL:
