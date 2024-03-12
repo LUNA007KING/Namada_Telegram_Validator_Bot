@@ -25,7 +25,7 @@ else
 fi
 
 sudo apt-get update
-sudo apt-get install python3 python python3-venv python3-pip -y
+sudo apt-get install python3 python3-venv python3-pip -y
 sudo apt-get install -y mysql-server
 
 sudo mysql_secure_installation <<EOF
