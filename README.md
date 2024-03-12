@@ -17,8 +17,8 @@ This project is a Telegram bot designed to monitor validators on the Namada bloc
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Notice](#notice)
 - [Usage](#usage)
-  - [Setting Up the .env File](#setting-up-the-env-file)
   - [Running the Bot](#running-the-bot)
   - [Telegram Commands](#telegram-commands)
 - [Bot Usage Examples](#bot-usage-examples)
@@ -79,35 +79,36 @@ git clone https://github.com/LUNA007KING/Namada_Telegram_Validator_Bot.git
 cd Namada_Telegram_Validator_Bot
 ```
 
-2. Run the setup_environment.sh script to install Python, Python packages, and set up MySQL:
+2. Copy the example.env file to .env and update it with your database credentials and bot token:
+
+```bash
+cp example.env .env
+```
+
+3. Run the setup_environment.sh script to install Python, Python packages, and set up MySQL:
 
 ```bash
 chmod +x setup_environment.sh
 ./setup_environment.sh
 ```
 
-3. Create and activate a Python virtual environment:
+4. Create and activate a Python virtual environment:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-4. Install Python dependencies:
+5. Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Copy the example.env file to .env and update it with your database credentials and bot token:
-
-```bash
-cp example.env .env
-# Edit .env with your database credentials and bot token
-```
 
 ### Notice
 1.Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
+
 2.The .env file contains important configuration values. Fill in the values according to your environment:
 - `TELEGRAM_BOT_TOKEN`: Your Telegram bot token.
 - `NAMADA_RPC_URL`: The RPC URL for the Namada blockchain.
@@ -119,7 +120,7 @@ cp example.env .env
 ### Running the Bot
 To start the bot, run:
 ```python
-python main.py
+python3 main.py
 ```
 
 ### Telegram Commands
