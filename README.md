@@ -22,6 +22,7 @@ This project is a Telegram bot designed to monitor validators on the Namada bloc
   - [Running the Bot](#running-the-bot)
   - [Telegram Commands](#telegram-commands)
 - [Bot Usage Examples](#bot-usage-examples)
+- [Developer](#developer)
 
 
 ## Features
@@ -158,3 +159,6 @@ python3 main.py
 - **stop all**: Stop monitoring all validators by deleting all subscriptions, halting all notifications.
 
   ![Stop Monitoring All Validators](images/stop_all.png)
+
+  ## Developer
+  BlackOreo tpknam1qzst4n2a6pxw33mme3sn3arx540gka0xgudd7fxqpsdvy8k6aslusharwh3
