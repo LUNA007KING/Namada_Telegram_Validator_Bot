@@ -107,9 +107,9 @@ pip install -r requirements.txt
 
 
 ### Notice
-1.Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
+1. Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
 
-2.The .env file contains important configuration values. Fill in the values according to your environment:
+2. The .env file contains important configuration values. Fill in the values according to your environment:
 - `TELEGRAM_BOT_TOKEN`: Your Telegram bot token.
 - `NAMADA_RPC_URL`: The RPC URL for the Namada blockchain.
 - Database configurations (`DB_USER`, `DB_PASSWORD`, etc.).
