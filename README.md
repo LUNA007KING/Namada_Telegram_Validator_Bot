@@ -95,7 +95,7 @@ chmod +x setup_environment.sh
 4. Create and activate a Python virtual environment:
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
