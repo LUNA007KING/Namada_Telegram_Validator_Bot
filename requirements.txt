@@ -1,0 +1,8 @@
+APScheduler==3.10.4
+borsh_construct==0.1.0
+construct==2.10.68
+mysql-connector-python==8.3.0
+python-dotenv==1.0.1
+python-telegram-bot==20.8
+Requests==2.31.0
+urllib3==2.2.1
