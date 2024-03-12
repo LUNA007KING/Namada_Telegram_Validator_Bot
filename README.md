@@ -84,7 +84,21 @@ cd Namada_Telegram_Validator_Bot
 chmod +x setup_environment.sh
 ./setup_environment.sh
 ```
-3. Copy the example.env file to .env and update it with your database credentials and bot token:
+3.Create and activate a Python virtual environment:
+Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+4.Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Copy the example.env file to .env and update it with your database credentials and bot token:
 
 ```bash
 cp example.env .env
