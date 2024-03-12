@@ -120,7 +120,7 @@ pip install -r requirements.txt
 ### Running the Bot
 To start the bot, run:
 ```python
-python main.py
+python3 main.py
 ```
 
 ### Telegram Commands
