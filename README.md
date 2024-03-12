@@ -95,7 +95,7 @@ chmod +x setup_environment.sh
 4. Create and activate a Python virtual environment:
 
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 ```
 
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 ### Running the Bot
 To start the bot, run:
 ```python
-python3 main.py
+python main.py
 ```
 
 ### Telegram Commands
