@@ -57,7 +57,7 @@ telegram_bot_project/
 │ ├── commission_rate.py       
 │ └── storage_proposal.py      # Placeholder for future implementation
 ├── example.env              # Template for environment variables
-├── setup_environment.sh               # Script for setting up prerequisites and environment
+├── setup_environment.sh     # Script for setting up prerequisites and environment
 ├── main.py                  # Entry point of the application
 └── requirements.txt         # Python dependencies
 ```
