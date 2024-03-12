@@ -72,35 +72,35 @@ This structure supports modular development by separating concerns: db handles d
 
 ### Installation
 
-- 1. Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/LUNA007KING/Namada_Telegram_Validator_Bot.git
 cd Namada_Telegram_Validator_Bot
 ```
 
-- 2. Run the setup_environment.sh script to install Python, Python packages, and set up MySQL:
+2. Run the setup_environment.sh script to install Python, Python packages, and set up MySQL:
 
 ```bash
 chmod +x setup_environment.sh
 ./setup_environment.sh
 ```
 
-- 3. Create and activate a Python virtual environment:
-Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
+3. Create and activate a Python virtual environment:
+  Before installing the dependencies, it's recommended to create a Python virtual environment to isolate the project dependencies.
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-- 4. Install Python dependencies:
+4. Install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-- 5. Copy the example.env file to .env and update it with your database credentials and bot token:
+5. Copy the example.env file to .env and update it with your database credentials and bot token:
 
 ```bash
 cp example.env .env
