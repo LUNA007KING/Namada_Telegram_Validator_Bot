@@ -161,5 +161,9 @@ Try it on https://t.me/Namada_Validators_bot
 
   ![Stop Monitoring All Validators](images/stop_all.png)
 
+- **notify changes**: The bot will alert users to any changes in the status or commission rates of the validators they are monitoring. 
+
+  ![Notify Changes](images/notify.png)
+
   ## Developer
   BlackOreo tpknam1qzst4n2a6pxw33mme3sn3arx540gka0xgudd7fxqpsdvy8k6aslusharwh3
