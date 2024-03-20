@@ -21,10 +21,10 @@ def init_database():
             'tendermint_address': 'VARCHAR(40) NOT NULL',
             'voting_power': 'BIGINT',
             'email': 'VARCHAR(255)',
-            'description': 'VARCHAR(1000)',
+            'description': 'TEXT',
             'website': 'VARCHAR(255)',
-            'discord_handle': 'VARCHAR(50)',
-            'avatar': 'VARCHAR(255)',
+            'discord_handle': 'VARCHAR(255)',
+            'avatar': 'TEXT',
             'commission_rate': 'FLOAT',
             'max_commission_change': 'FLOAT',
             'state': 'VARCHAR(16)'
